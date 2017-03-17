@@ -1,3 +1,10 @@
+Cult of Coders
+===============
+
+The only modification is that it passes the meteorSub to observeChanges, so when we have an optimistic ui update, it first updates
+the invoker's observer first without having to wait for updating other observers as well for the same thing.
+
+
 meteor-publish-composite
 ========================
 
